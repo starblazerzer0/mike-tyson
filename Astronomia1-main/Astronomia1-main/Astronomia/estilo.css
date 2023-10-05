@@ -2,7 +2,7 @@
     --titulo-principal: #f7ff10;
     --cor-do-texto: #ffffff;
     --cor-de-fundo: #000000;
-    --cor-do-botao: #d14b59;
+    --cor-do-botao: #022177;
 }
 body{
     background-color:var(--cor-de-fundo);
@@ -10,3 +10,19 @@ body{
 h1{
     color:var(--titulo-principal);
 }   
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image:url(universo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container_botao{
+    background-color: var(--cor-do-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--titulo-principal);
+    display: block;
+}
