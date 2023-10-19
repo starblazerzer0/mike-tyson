@@ -1,0 +1,22 @@
+:root{--titulo-principal:#0a0a0a;
+   --cor-do-texto:#eff309;
+    --cor-texto:#033cf7;
+    --cor-do-botao:#ffffff;
+}
+
+body{background-color:var(--cor-de-fundo);
+}
+h1{color:var(--titulo-principal);
+}
+*{
+    margin: 0;
+    padding: 0px; 
+}
+.principal{
+    background-image:url(download.jpeg);
+    background-repeat: no-repeat;
+    box-sizing: contain;
+}
+.container{
+    height: 100vh;
+}
